@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/response.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600;800&family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+ <link rel="preload" href="fonts/UkrainianFuturaEugenia.ttf" as="font" type="font/ttf" crossorigin>
+ 
+
+</head>
+<body>
+  
+
+  <header class="header">
+    
+    <div class="container">
+      <div class="header__inner">
+        <img class="logo" src="images/logo.png" alt="">
+        <div class="menu__nav">
+          <span></span>
+      </div>
+      <div class="close__block">
+         <div class="close__button"></div>
+      </div>
+      <nav class="nav">
+          <ul class="nav__list">
+              <li class="nav__list-item">
+                  <a href="" class="nav__list-link">Про нас</a>
+              </li>
+              <li class="nav__list-item">
+                 <a href="" class="nav__list-link">КОНТАКТИ</a>
+              </li>
+              <li class="nav__list-item">
+                 <a href="" class="nav__list-link">НАША ДОПОМОГа</a>
+              </li>
+              <li class="nav__list-item">
+                  <a href="" class="nav__list-link">ЦІЛІ</a>
+              </li>
+              <li class="nav__list-item">
+                  <a href="" class="nav__list-link">ПРІОРИТЕТИ</a>
+              </li>
+              <li class="nav__list-item">
+                  <a href="" class="nav__list-link">Партнери</a>
+              </li>
+              <!-- <li class="nav__list-item">
+                  <a href="" class="nav__list-link">ПОДЯКИ</a>
+              </li>
+              <li class="nav__list-item">
+                  <a href="" class="nav__list-link">Рада директорів</a>
+              </li>
+              <li class="nav__list-item">
+                 <a href="" class="nav__list-link">Наша робота</a>
+             </li> -->
+          </ul>
+      </nav>
+      <div class="choose__lang">
+        <a class="header__content-link header__content-link--active"  href="#">UA</a>|
+        <a class="header__content-link"  href="#">EN</a>
+      </div>
+      </div>
+    </div>
+
+</header>
+
+<!-- <section class="main">
+  <div class="container">
+    <div class="main__inner">
+      <div class="main__left">
+        <h1 class="main__left-title">Щира Справа</h1>
+        <p class="main__left-description">
+          Україна бореться за Свободу та Демократію з тиранією Росії - Свобода 
+          бути цілісною державою чи рабство без можливості вибору.
+          Росія переступила поріг локального 
+          конфлікту і розпочала повномасштабну війну з українськими дітьми, жінками та людьми похилого віку.
+          Цей кривавий оскал "Русского Мира" став загрожувати всьому 
+          цивілізованому світу - це бій нашого часу.
+          Допоможіть Україні перемогти, щоб злісний "Російський Світ" 
+          сам забрався під лавку підібгавши хвіст як шелудиве щеня.
+          Кожен голос важливий, щоб зупинити Путіна. <br>
+          <span>Ви можете допомогти нам виграти цю війну!</span> <br>
+          <span>Все розумне людство сподівається на вас!</span>
+        </p>
+        <div class="main__left-images">
+          <img class="main__left-img"  src="images/main/1.jpg" alt="" >
+          <img class="main__left-img"  src="images/main/2.jpg" alt="" >
+          <img class="main__left-img"  src="images/main/3.jpg" alt="" >
+        </div>
+
+        <h2 class="main__left-suptitle">
+          Since 2014 we take care<br>
+          of Ukrainians
+        </h2>
+
+        <button class="main__left-btn">DONATE</button>
+
+      </div>
+      <div class="main__right">
+        <div class="main__right-links">
+          <a class="main__right-link main__right-link--active" href="#">UА</a>|
+          <a class="main__right-link" href="#">EN</a>
+        </div>
+
+        <h2 class="main__right-suptitle">
+          З 2014 року ми дбаємо<br>
+          про Українців!
+        </h2>
+
+        <button class="main__right-btn">ПОЖЕРТВУВАТИ</button>
+
+        <h1 class="main__right-title">Honest Affairs</h1>
+
+        <p class="main__right-description">
+          Ukraine is fighting for Freedom and Democracy against Russian tyranny. The Freedom of being a whole Country or a slave with no choice.
+          Russia has crossed the threshold of a local conflict and launched a full-scale war with Ukrainian children, women and seniors.
+          This bloody grin of the "Russian peace" began to threaten the entire civilized people, this is the main battle for us.
+          Help Ukraine win so that the vicious "Russian peace" punished for its atrocities against the Ukrainians, climbed under the bench, tail between its legs, like a deleterious puppy.
+          Each voice is important to stop Putin. <br>
+          <span>Don't be indifferent, be a part of the shield against Putin's tyranny!</span> <br>
+          <span>You can help us win this war!</span> <br>
+        </p>
+
+        <div class="main__right-images">
+          <img class="main__right-img"  src="images/main/4.jpg" alt="" >
+          <img class="main__right-img"  src="images/main/5.jpg" alt="" >
+          <img class="main__right-img"  src="images/main/6.jpg" alt="" >
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+</section>  -->
+
+
+<section class="about-us">
+  <div class="container">
+    <div class="about-us__inner">
+      <h1 class="about-us__title">Про організацію</h1>
+      <p class="abzats">
+        <span>2014</span> Зібралася група однодумців: волонтери, медики, підприємці, громадські організації та благодійні фонди.
+        Було засновано перший реабілітаційний центр для учасників АТО (Антитерористична операція), переселенців,
+        жертв Олексія Криму та Донбасу.
+        <p class="abzats">
+         Почали надавати і продовжили до теперішнього часу: <br>
+        • медична реабілітація (докладемо фото),<br>
+        • психологічна реабілітація,<br>
+        • юридична допомога та супровід. <br>
+        </p>       
+      </p>
+
+      <p class="abzats">
+        <span>2015</span> Створено громадську організацію - «ЩИРА СПРАВА» .
+        Передано понад 70 тонн гуманітарного вантажу (продукти харчування, медикаменти, військова амуніція, 
+        засоби гігієни)
+        Розробили та впровадили програму соціальної адаптації учасників АТО, інвалідів АТО та переселенців.
+      </p>
+      <p class="abzats">
+        <span>2016</span> Налагодили комунікацію та співпрацю між громадськими організаціями Дніпропетровського, … регіонів, 
+        благодійними фондами та органами влади.
+        Було підписано меморандум між благодійними організаціями та фондами України про співпрацю з ініціативи ГО «ЩИРА СПРАВА». 
+        (Фото докладемо)
+      </p>
+      
+      <p class="abzats">
+        <span>2017</span> Налагоджено продуктивну роботу, у всіх сферах.
+        Розширені функції організації – почали брати участь у вихованні молоді
+      </p>
+
+      <p class="abzats">
+        <span>2019</span> Відкрито другий реабілітаційний центр у Міській Лікарні № 2
+      </p>
+
+      <p class="abzats">
+        <span>2021 </span> Відкрито 2 реабілітаційних пакети у Криворізькій Центральній Районній Лікарні.
+      </p>
+
+      <p class="abzats-title">
+        2022 – по теперішній час
+      </p>
+
+      <h6 class="abzats__suptitle">З 23 на 24 лютого ВІЙНА!</h6>
+
+      <p class="abzats">
+        Зроблено збір організації. <br>
+        Прийнято нові волонтери у кількості 483 особи.<br>
+        Продуктивна співпраця з керівництвом … областей України та командуванням Частин ЗСУ та ТерОборони.<br>
+        Передано на потреби вищезгаданих областей України понад 80-90 тонн гуманітарного вантажу.<br>
+        Надано допомогу Частям ЗСУ, Блок Постам та ТерОбороні, близько 1200 переселенцям/біженцям в Україні, Європі та Канаді;<br>
+      </p>
+
+      <p class="list">
+
+        • Продукти харчування<br>
+        • Медикаменти,<br>
+        • Засоби гігієни,<br>
+        • Одяг,<br>
+        • Військова амуніція.<br>
+        • Юридичний супровід<br>
+        • Психологічна допомога<br>
+      </p>
+    </div>
+  </div>
+</section>
+
+ 
+  <!-- <section class="contacts">
+    <div class="container">
+      <h1 class="contacts__title">Зв'язатися з нами</h1>
+      <div class="social">
+        <a class="social__link-facebook" href="#">
+        </a>
+        <a class="social__link-telegram" href="#">
+        </a>
+        <a class="social__link-instagram" href="#">
+        </a>
+        <a class="social__link-twitter" href="#">
+        </a>
+      </div>
+
+      <div class="contacts__list">
+        <a class="contacts__phone" href="tel:+380676192585">+38(067) 619 25 85</a>
+        <a class="contacts__mail" href="mailto:shirasprawa@ukr.net">shirasprawa@ukr.net</a>
+
+        <p class="contacts__adress">Україна, м.Кривий Ріг</p>
+        <p class="contacts__adress">вул. Співдружності 96</p>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- <section class="help">
+    <div class="container">
+      <div class="help__inner">
+        <h1 class="help__title">Наша допомога</h1>
+        <p class="help__description">
+          Ми надаємо пряму цільову безперебійну допомогу для тих, хто потребує таку 
+          як продукти харчування та питну воду, медикаментами та медичним обладнанням, 
+          побутовими речами та засобами особистої гігієни.
+          </p>
+        <p class="help__description">
+          Ми працюємо з волонтерами у Канаді, Європі, у містах та селах України. 
+          У Європі та Канаді також допомагаємо у працевлаштуванні, пошуку доступного житла 
+          та необхідного побутового приладдя.
+        </p>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- <section class="targets">
+    <div class="container">
+      <h1 class="targets__title">Цілі організації</h1>
+      <div class="targets__inner">
+        <div class="targets__item">
+          <div class="targets__item-number">1</div>
+          <div class="targets__item-text">
+            <p class="targets__item-description">
+              Пряма цільова допомога Українцям, які постраждали 
+              через напад Росії
+            </p>
+          </div>
+        </div>
+        <div class="targets__item">
+          <div class="targets__item-number">2</div>
+          <div class="targets__item-text">
+            <p class="targets__item-description">
+              Допомога Українським біженцям у Європі та Канаді
+            </p>
+          </div>
+        </div>
+        <div class="targets__item">
+          <div class="targets__item-number">3</div>
+          <div class="targets__item-text">
+            <p class="targets__item-description">
+              Підтримувати постійну благодійну діяльність
+            </p>
+          </div>
+        </div>
+        <div class="targets__item">
+          <div class="targets__item-number">4</div>
+          <div class="targets__item-text">
+            <p class="targets__item-description">
+              Використовувати пожертвування для ініціатив підтримки 
+              боєздатності Захисників України та підтримки життєздатності 
+              громадянських верств Українського Народу
+            </p>
+          </div>
+        </div>
+        <div class="targets__item">
+          <div class="targets__item-number">5</div>
+          <div class="targets__item-text">
+            <p class="targets__item-description">
+              Збільшити кількість небайдужих людей з метою 
+              залучення їх до волонтерського руху
+            </p>
+          </div>
+        </div>
+        <div class="targets__item">
+          <div class="targets__item-number">6</div>
+          <div class="targets__item-text">
+            <p class="targets__item-description">
+              Відкрити світові правду про "Русский Мир"
+            </p>
+          </div>
+        </div>
+        <div class="targets__item">
+          <div class="targets__item-number">7</div>
+          <div class="targets__item-text">
+            <p class="targets__item-description">
+              Відстоювати заново зруйновані міста та села України
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- <section class="partners">
+    <div class="container">
+      <h1 class="proritets__title">Пріорітети</h1>
+      <div class="prioritets__inner">
+        <div class="prioritets__item">
+          <img class="prioritets__img" src="images/partners/1.png" alt="">
+          <h2 class="prioritets__text">
+            Допомога 
+            військовослужбовцям
+          </h2>
+        </div>
+        <div class="prioritets__item">
+          <img class="prioritets__img" src="images/partners/2.png" alt="">
+          <h2 class="prioritets__text">
+            Допомога 
+            територіальній обороні
+          </h2>
+        </div>
+        <div class="prioritets__item">
+          <img class="prioritets__img" src="images/partners/3.png" alt="">
+          <h2 class="prioritets__text">
+            Допомога <br>
+            біженцям
+          </h2>
+        </div>
+        <div class="prioritets__item">
+          <img class="prioritets__img" src="images/partners/4.png" alt="">
+          <h2 class="prioritets__text">
+            Допомога <br>
+            дітям
+          </h2>
+        </div>
+      </div>
+
+      <h1 class="friends__title">Друзі та партнери</h1>
+
+      <div class="friends__inner">
+        <div class="friends__left">
+          <div class="friends__item">
+            <div class="friends__item-number">1</div>
+            <div class="friends__item-text">
+              <p class="friends__item-description">
+                Громадянська Організація "Форпост - 
+                підтримка та супровід"
+              </p>
+            </div>
+          </div>
+          <div class="friends__item">
+            <div class="friends__item-number">2</div>
+            <div class="friends__item-text">
+              <p class="friends__item-description">
+                Громадянська Організація "Час Діяти"
+              </p>
+            </div>
+          </div>
+          <div class="friends__item">
+            <div class="friends__item-number">3</div>
+            <div class="friends__item-text">
+              <p class="friends__item-description">
+                Благодійна Організація "Міжнародний Благодійний
+                Фонд "Щит 2014"
+              </p>
+            </div>
+          </div>
+          <div class="friends__item">
+            <div class="friends__item-number">4</div>
+            <div class="friends__item-text">
+              <p class="friends__item-description">
+                Громадянська Організація "Союз ветеранів АТО 
+                "Блокпост"
+              </p>
+            </div>
+          </div>
+          <div class="friends__item">
+            <div class="friends__item-number">5</div>
+            <div class="friends__item-text">
+              <p class="friends__item-description">
+                Благодійна Організація "Благодійне Товариство 
+                "Благодар"
+              </p>
+            </div>
+          </div>
+          <div class="friends__item">
+            <div class="friends__item-number">6</div>
+            <div class="friends__item-text">
+              <p class="friends__item-description">
+                Громадянська Організація "Асоціація ветеранів
+                війни та бойових дій"
+              </p>
+            </div>
+          </div>
+          <div class="friends__item">
+            <div class="friends__item-number">7</div>
+            <div class="friends__item-text">
+              <p class="friends__item-description">
+                Громадянська Організація "Криворізька 
+                асоціація учасників бойових дій та учасників 
+                АТО"
+              </p>
+            </div>
+          </div>
+          <div class="friends__item">
+            <div class="friends__item-number">8</div>
+            <div class="friends__item-text">
+              <p class="friends__item-description">
+                Громадянська Організація "Діємо Разом"
+              </p>
+            </div>
+          </div>
+          <div class="friends__item">
+            <div class="friends__item-number">9</div>
+            <div class="friends__item-text">
+              <p class="friends__item-description">
+                Громадянська Організація "Українська Фортеця"
+              </p>
+            </div>
+          </div>
+          <div class="friends__item friends__item-ten">
+            <div class="friends__item-number">10</div>
+            <div class="friends__item-text">
+              <p class="friends__item-description">
+                Українська громада міста Мюнхен
+                (Німеччина)
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="friends__right">
+          <div class="friends__item">
+            <div class="friends__item-number">11</div>
+            <div class="friends__item-text">
+              <p class="friends__item-description">
+                Громадянська Організація "Громадський
+                Коледж"
+              </p>
+            </div>
+          </div>
+          <div class="friends__item">
+            <div class="friends__item-number">12</div>
+            <div class="friends__item-text">
+              <p class="friends__item-description">
+                Благодійна Організація "Благодійний 
+                фонд Костянтина Караманіц"
+              </p>
+            </div>
+          </div>
+          <div class="friends__item">
+            <div class="friends__item-number">13</div>
+            <div class="friends__item-text">
+              <p class="friends__item-description">
+                Громадянська Організація "Набат 
+                Кривбас"
+              </p>
+            </div>
+          </div>
+          <div class="friends__item">
+            <div class="friends__item-number">14</div>
+            <div class="friends__item-text">
+              <p class="friends__item-description">
+                Благодійний фонд "Всесвіт"
+              </p>
+            </div>
+          </div>
+          <div class="friends__item">
+            <div class="friends__item-number">15</div>
+            <div class="friends__item-text">
+              <p class="friends__item-description">
+                Громадянська Організація 
+                "Захід"
+              </p>
+            </div>
+          </div>
+          <div class="friends__item">
+            <div class="friends__item-number">16</div>
+            <div class="friends__item-text">
+              <p class="friends__item-description">
+                Громадянська Організація "Сприяння Збройним Силам України
+                та Національній Гвардії України"
+              </p>
+            </div>
+          </div>
+          <div class="friends__item">
+            <div class="friends__item-number">17</div>
+            <div class="friends__item-text">
+              <p class="friends__item-description">
+                Громадянська Організація"Інформаційно 
+                Освітній Центр "Жіноча Громада Міста 
+                Кривого Рогу"
+              </p>
+            </div>
+          </div>
+          <div class="friends__item">
+            <div class="friends__item-number">18</div>
+            <div class="friends__item-text">
+              <p class="friends__item-description">
+                Громадянська Організація "Об'єднання 
+                Свідомих Активістів"
+              </p>
+            </div>
+          </div>
+          <div class="friends__item">
+            <div class="friends__item-number">19</div>
+            <div class="friends__item-text">
+              <p class="friends__item-description">
+                Волонтерська Організація "Á travers L'Europe" 
+                (France)
+              </p>
+            </div>
+          </div>
+          <div class="friends__item">
+            <div class="friends__item-number">20</div>
+            <div class="friends__item-text">
+              <p class="friends__item-description">
+                Фонд "OPORA" (Poland)
+              </p>
+            </div>
+          </div>
+          <div class="friends__item">
+            <div class="friends__item-number">21</div>
+            <div class="friends__item-text">
+              <p class="friends__item-description">
+                Перший і Другий Криворізькі Місцеві 
+                Центри з надання Безоплатної Вторинної
+                Правової допомоги
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="partners__btn">ПОЖЕРТВУВАТИ</button>
+ 
+
+
+    </div>
+  </section> -->
+
+  <!-- <section class="thanks">
+    <div class="container">
+      <h1 class="thanks__title">Подяки</h1>
+    <div class="thanks__inner">
+      <div class="thanks__item">
+        <img src="images/thanks/1.png" alt="">
+      </div>
+      <div class="thanks__item">
+        <img src="images/thanks/2.png" alt="">
+      </div>
+      <div class="thanks__item">
+        <img src="images/thanks/3.png" alt="">
+      </div>
+      <div class="thanks__item">
+        <img src="images/thanks/4.png" alt="">
+      </div>
+      <div class="thanks__item">
+        <img src="images/thanks/5.png" alt="">
+      </div>
+      <div class="thanks__item">
+        <img src="images/thanks/6.png" alt="">
+      </div>
+      <div class="thanks__item">
+        <img src="images/thanks/7.png" alt="">
+      </div>
+      <div class="thanks__item">
+        <img src="images/thanks/8.png" alt="">
+      </div>
+      <div class="thanks__item">
+        <img src="images/thanks/9.png" alt="">
+      </div>
+      <div class="thanks__item">
+        <img src="images/thanks/10.png" alt="">
+      </div>
+      <div class="thanks__item">
+        <img src="images/thanks/11.png" alt="">
+      </div>
+      <div class="thanks__item">
+        <img src="images/thanks/12.png" alt="">
+      </div>
+    </div>
+    </div>
+    
+  </section> -->
+
+  <section class="directors">
+    <div class="container">
+      <h1 class="directors__title">Рада директорів</h1>
+
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="directors__inner">
+              <img class="directors__img" src="images/directors/1.png" alt="">
+              <div class="directors__descr">
+                <h4 class="directors__position">Голова</h4>
+                <h1 class="directors__name">Максим Волинець</h1>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="directors__inner">
+              <img class="directors__img" src="images/directors/1.png" alt="">
+              <div class="directors__descr">
+                <h4 class="directors__position">Голова</h4>
+                <h1 class="directors__name">Максим</h1>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="directors__inner">
+              <img class="directors__img" src="images/directors/1.png" alt="">
+              <div class="directors__descr">
+                <h4 class="directors__position">Голова</h4>
+                <h1 class="directors__name">Максим</h1>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="directors__inner">
+              <img class="directors__img" src="images/directors/1.png" alt="">
+              <div class="directors__descr">
+                <h4 class="directors__position">Голова</h4>
+                <h1 class="directors__name">Максим</h1>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="directors__inner">
+              <img class="directors__img" src="images/directors/1.png" alt="">
+              <div class="directors__descr">
+                <h4 class="directors__position">Голова</h4>
+                <h1 class="directors__name">Максим</h1>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="directors__inner">
+              <img class="directors__img" src="images/directors/1.png" alt="">
+              <div class="directors__descr">
+                <h4 class="directors__position">Голова</h4>
+                <h1 class="directors__name">Максим</h1>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="directors__inner">
+              <img class="directors__img" src="images/directors/1.png" alt="">
+              <div class="directors__descr">
+                <h4 class="directors__position">Голова</h4>
+                <h1 class="directors__name">Максим</h1>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="directors__inner">
+              <img class="directors__img" src="images/directors/1.png" alt="">
+              <div class="directors__descr">
+                <h4 class="directors__position">Голова</h4>
+                <h1 class="directors__name">Максим</h1>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="directors__inner">
+              <img class="directors__img" src="images/directors/1.png" alt="">
+              <div class="directors__descr">
+                <h4 class="directors__position">Голова</h4>
+                <h1 class="directors__name">Максим</h1>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="directors__inner">
+              <img class="directors__img" src="images/directors/1.png" alt="">
+              <div class="directors__descr">
+                <h4 class="directors__position">Голова</h4>
+                <h1 class="directors__name">Максим</h1>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="directors__inner">
+              <img class="directors__img" src="images/directors/1.png" alt="">
+              <div class="directors__descr">
+                <h4 class="directors__position">Голова</h4>
+                <h1 class="directors__name">Максим</h1>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+      </div>
+  
+      <p class="directors__description">
+        На період бойових дій фото та прізвища 
+        деяких працюючих на території України директорів 
+        тимчасово засекречено у цілях безпеки
+      </p>
+    </div>
+
+  </section>
+
+  <!-- <section class="works">
+    <div class="container">
+      <h1 class="works__title">Наша робота</h1>
+      <div class="works__inner">
+        <div class="works__item">
+          <img class="works__img" src="images/works/1.png" alt="">
+          <div class="works__description">
+            <h4 class="works__descr">
+              Передали <br>
+              медикаменти ЗСУ
+            </h4>
+          </div>
+        </div>
+        <div class="works__item">
+          <img class="works__img" src="images/works/2.png" alt="">
+          <div class="works__description">
+            <h4 class="works__descr">
+              Гуманітарна допомога <br>
+              для біженців
+            </h4>
+          </div>
+        </div>
+        <div class="works__item">
+          <img class="works__img" src="images/works/3.png" alt="">
+          <div class="works__description">
+            <h4 class="works__descr">
+              Перадали дитячі товари
+            </h4>
+          </div>
+        </div>
+        <div class="works__item">
+          <img class="works__img" src="images/works/4.png" alt="">
+          <div class="works__description">
+            <h4 class="works__descr">
+              Опис роботи
+            </h4>
+          </div>
+        </div>
+        <div class="works__item">
+          <img class="works__img" src="images/works/5.png" alt="">
+          <div class="works__description">
+            <h4 class="works__descr">
+              Опис роботи
+            </h4>
+          </div>
+        </div>
+        <div class="works__item">
+          <img class="works__img" src="images/works/6.png" alt="">
+          <div class="works__description">
+            <h4 class="works__descr">
+              Опис роботи
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="social__footer">
+          <a class="social__link-facebook-footer" href="#">
+          </a>
+          <a class="social__link-telegram-footer" href="#">
+          </a>
+          <a class="social__link-instagram-footer" href="#">
+          </a>
+          <a class="social__link-twitter-footer" href="#">
+          </a>
+        </div>
+        
+        <div class="footer__adress">
+          <p class="contacts__adress-footer">Україна, м.Кривий Ріг</p>
+          <p class="contacts__adress-footer">вул. Співдружності 96</p>
+        </div>
+
+        <div class="contacts__list-footer">
+          <a class="contacts__phone-footer" href="tel:+380676192585">+38(067) 619 25 85</a>
+          <a class="contacts__mail-footer"  href="mailto:shirasprawa@ukr.net">shirasprawa@ukr.net</a>
+        </div>
+
+      </div>
+    </div>
+  </footer> -->
+
+  <!-- <div class="year">
+    <div class="container">
+      <p class="years">2022</p>
+    </div>
+  </div> -->
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
